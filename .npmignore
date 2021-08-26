@@ -11,6 +11,7 @@
 mempoll-*.tgz
 CHANGELOG.md
 CONTRIBUTING.md
+venv
 coverage/
 docs/
 Gruntfile.js

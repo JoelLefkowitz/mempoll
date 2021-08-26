@@ -19,7 +19,7 @@ npm install -D mempoll
 ```
 
 ```bash
-yar add -D mempoll
+yarn add -D mempoll
 ```
 
 ## Usage
@@ -35,6 +35,31 @@ import { mempoll } from 'mempoll';
 
 const worker = mempoll();
 ```
+
+This will print a summary every second:
+
+```bash
+┌────────────────────┬────────┐
+│      (index)       │ Values │
+├────────────────────┼────────┤
+│      Rss / MB      │   28   │
+│  Heap total / MB   │ 4.102  │
+│   Heap used / MB   │ 2.275  │
+│   External / MB    │ 1.074  │
+│ Array buffers / MB │  0.01  │
+└────────────────────┴────────┘
+```
+
+## Parameters
+
+```ts
+import { Worker } from 'worker_threads';
+
+const mempoll = (interval: number = 1000, resolution: number = 3) => Worker
+```
+
+- Interval: Polling interval in ms.
+- Resolution: Output figure decimal places.
 
 ## Tests
 
