@@ -11,6 +11,7 @@
 mempoll-*.tgz
 CHANGELOG.md
 CONTRIBUTING.md
+CODE_OF_CONDUCT.md
 venv
 coverage/
 docs/
