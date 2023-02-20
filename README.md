@@ -21,9 +21,9 @@ npm i mempoll
 ## Usage
 
 ```ts
-import { mempoll } from "mempoll";
+import { poll } from "mempoll";
 
-const worker = mempoll();
+poll();
 ```
 
 This will print a summary every second:
@@ -45,7 +45,7 @@ This will print a summary every second:
 ```ts
 import { Worker } from "worker_threads";
 
-const mempoll = (interval: number = 1000, resolution: number = 3) => Worker;
+const poll: (interval: number = 1000, resolution: number = 3) => Worker;
 ```
 
 - Interval: Polling interval in ms.
