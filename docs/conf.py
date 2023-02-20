@@ -9,7 +9,7 @@ sys.path.append("..")
     Sphinx core settings
 """
 project = "mempoll"
-version = "1.0.0"
+version = "0.1.0"
 author = "Joel Lefkowitz"
 master_doc = "index"
 
@@ -47,7 +47,7 @@ napoleon_google_docstring = True
 html_theme = "yummy_sphinx_theme"
 html_theme_options = {
     "navbar_icon": "spin fa-book",
-    "github_url": "https://github.com/JoelLefkowitz/mempoll"
+    "github_url": "https://github.com/joellefkowitz/mempoll"
 }
 
 """
