@@ -6,4 +6,6 @@ const { resolution, interval } = workerData as {
   interval: number;
 };
 
-setInterval(() => console.table(usage(resolution)), interval);
+setInterval(() => {
+  console.table(usage(resolution));
+}, interval);

@@ -10,6 +10,8 @@ describe("usage", () => {
       "Heap total / MB",
       "Heap used / MB",
       "Rss / MB",
-    ].map((key) => expect(keys).toContain(key));
+    ].map((key) => {
+      expect(keys).toContain(key);
+    });
   });
 });
