@@ -41,7 +41,7 @@ This will print a summary every second:
 └────────────────────┴────────┘
 ```
 
-## Parameters
+### Parameters
 
 ```ts
 import { Worker } from "worker_threads";
