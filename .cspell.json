@@ -19,6 +19,8 @@
     "jsdoc",
     "lefkowitz",
     "mempoll",
+    "pinst",
+    "postpack",
     "trufflehog"
   ]
 }
